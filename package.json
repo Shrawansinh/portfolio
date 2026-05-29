@@ -2,21 +2,44 @@
   "name": "shrawanportfolio",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.1",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "license": "ISC",
+  "author": "shrawan",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.7",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.1",
+    "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "framer-motion": "^12.28.1",
+    "motion": "^12.28.1",
+    "nodemon": "^3.1.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.9.3",
+    "react-scroll-to-top": "^3.1.0",
+    "react-vertical-timeline-component": "^3.5.3",
+    "typewriter-effect": "^2.22.0",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
   },
   "eslintConfig": {
     "extends": [
