@@ -90,7 +90,7 @@ const Education = () => {
               problem-solving skills.
             </p>
           </VerticalTimelineElement>
-           <VerticalTimelineElement
+           {/* <VerticalTimelineElement
             contentStyle={{
               background: "#0F172A",
               color: "#E5E7EB",
@@ -121,7 +121,7 @@ const Education = () => {
               Development. Actively building real-world projects and improving
               problem-solving skills.
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
 
         </VerticalTimeline>
       </div>
